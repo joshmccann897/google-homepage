@@ -1,0 +1,78 @@
+body {
+    display: grid;
+    grid-auto-rows: 0.5fr 1fr 0.8fr 0.8fr 0.5fr 0.5fr;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}        
+.pushright{
+    margin-left: auto;
+}
+.button {
+    width: 50px;
+    flex-grow: 1;
+    background: transparent;
+    border: none;
+}
+.button2 {
+    width: auto;
+    flex-grow: 1;
+    background: transparent;
+    border: none;
+}
+#Logo {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    height:100%
+}
+.searchbar{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    border-radius: 100px;
+    margin-top:25px;
+    margin-left:283px;
+    width:100%;
+}
+.bar{
+    border-radius:100px;
+    box-shadow: 2px 3px 0px -2px #ccc;
+    padding:10px;
+    border:0px;
+    outline: none;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #CCC;
+}
+.bar:hover{
+    box-shadow: 3px 6px 7px -3px #ccc; 
+}
+.ClickButtons {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.clickbutton {
+    border-radius: 5px;
+    align-self: auto;
+    width: 150px;
+    height: 40px;
+    background-color: #f8f8ff;
+    margin: 100px auto;
+}
+.spacer2{
+    flex-grow: 1;
+    width:50px; 
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.mid {
+    margin: auto;
+}
